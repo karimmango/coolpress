@@ -41,6 +41,7 @@ class Post(models.Model):
     title = models.CharField(max_length=150)
     author_id = models.ForeignKey(CoolUser, on_delete=models.CASCADE)
     body = models.TextField()
+
     image_link = models.CharField(max_length=400, null=True, blank=True)
     category_id = models.ForeignKey(Category, on_delete=models.CASCADE)
     last_update = models.DateTimeField(auto_now=True)
@@ -50,8 +51,7 @@ class Post(models.Model):
         choices=POST_LABELED_STATUS,
         default=PostStatus.DRAFT,)
 
-    def __str__(self):
-        return f'{self.title} - by {self.author.user.username}'
+
 
 
 
