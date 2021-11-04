@@ -4,3 +4,4 @@ beautifulsoup4
 wordcloud
 django-heroku
 gunicorn
+requests
