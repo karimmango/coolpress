@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ce25c56-5011-40e4-93c2-cd0b394a86d6" name="Changes" comment="heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProcFile" beforeDir="false" afterPath="$PROJECT_DIR$/ProcFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coolpress/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634575652040</updated>
-      <workItem from="1634575658687" duration="42200000" />
+      <workItem from="1634575658687" duration="42759000" />
     </task>
     <task id="LOCAL-00001" summary="big changes from many days of work">
       <created>1635965052157</created>
@@ -196,7 +196,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636053558082</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="heroku">
+      <created>1636053720776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636053720776</updated>
+    </task>
+    <task id="LOCAL-00007" summary="heroku">
+      <created>1636053800877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636053800877</updated>
+    </task>
+    <task id="LOCAL-00008" summary="heroku">
+      <created>1636054059896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636054059896</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
