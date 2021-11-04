@@ -20,6 +20,12 @@ def extract_github_repositories(content) -> Optional[int]:
     repositories_info = soup.select_one(css_selector)
     return int(repositories_info.text)
 
+def extract_github_followers(content) -> Optional[int]:
+    soup = BeautifulSoup(content, 'html.parser')
+    css_selector = 'div.UnderlineNav > nav > a:nth-child(2) > span'
+    css_selector = 'a[href$="followers"] span'
+    repositories_info = soup.select_one(css_selector)
+    return int(repositories_info.text)
 
 def get_github_repositories(github_profile):
     url = f'https://github.com/{github_profile}'
@@ -28,3 +34,11 @@ def get_github_repositories(github_profile):
     if response.status_code == 200:
         gh_repositories = extract_github_repositories(response.content)
     return gh_repositories
+
+def get_github_followers(github_profile):
+    url = f'https://github.com/{github_profile}'
+    response = requests.get(url)
+    gh_followers = None
+    if response.status_code == 200:
+        gh_followers = extract_github_repositories(response.content)
+    return gh_followers

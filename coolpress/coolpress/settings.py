@@ -125,6 +125,7 @@ TEMPLATES[0]['OPTIONS']['context_processors'].append(
     "press.context_processors.categories_processor")
 TEMPLATES[0]['OPTIONS']['context_processors'].append(
     "press.context_processors.cooluser_processor")
+TEMPLATES[0]['OPTIONS']['context_processors'].append('press.context_processors.navbar_processor')
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 

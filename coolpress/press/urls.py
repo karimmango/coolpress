@@ -3,7 +3,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('^/', views.post_list, name='index'),
+    path(r'^$', views.post_list, name='index'),
     path('post/<int:post_id>', views.post_detail, name='posts-detail'),
     path('posts/', views.post_list, name='posts-list'),
     path('post/add/', views.post_update, name='post-add'),
@@ -19,4 +19,5 @@ urlpatterns = [
     path('users/', views.CooluserList.as_view(), name='cooluser-list'),
     path('posts-filtered/', views.search_ajax, name='search-ajax'),
     path('post-filtered/', views.PostFilteredByText.as_view(), name='post-filtered'),
+    path('posts/<int:author_id>/', views.PostsByAuthor.as_view(), name='post-author'),
 ]

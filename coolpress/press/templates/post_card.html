@@ -15,6 +15,11 @@
                 <p class="card-text"><small class="text-muted">{{post.last_update}}</small></p>
                 <p class="card-text"><a href="{% url 'cooluser-detail' post.author.pk %}">{{post.author.user.username}}</a></p>
             </div>
+            <b>
+                <a href="{% url 'post-author' post.author.user.id %}" class="text-body text-underline-hover">
+                    {{post.author.user.username}}
+                </a>
+            </b>
             <div class="card-footer bg-transparent border-success">
                 <a href="{% url 'posts-detail' post.id %}" class="btn btn-primary">Details</a>
             </div>
