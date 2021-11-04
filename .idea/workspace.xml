@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ce25c56-5011-40e4-93c2-cd0b394a86d6" name="Changes" comment="migrate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coolpress/ProcFile" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/ProcFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coolpress/coolpress/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/coolpress/settings.py" afterDir="false" />
+    <list default="true" id="7ce25c56-5011-40e4-93c2-cd0b394a86d6" name="Changes" comment="heroku">
+      <change beforePath="$PROJECT_DIR$/coolpress-init/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress-init/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress-init/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress-init/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/ProcFile" beforeDir="false" afterPath="$PROJECT_DIR$/ProcFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coolpress/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coolpress/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +58,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/coolpress/press/templates" />
       <recent name="$PROJECT_DIR$/coolpress/press" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/coolpress-init" />
     </key>
   </component>
@@ -161,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634575652040</updated>
-      <workItem from="1634575658687" duration="41805000" />
+      <workItem from="1634575658687" duration="42046000" />
     </task>
     <task id="LOCAL-00001" summary="big changes from many days of work">
       <created>1635965052157</created>
@@ -184,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636053046894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="heroku">
+      <created>1636053212957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636053212957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="big changes from many days of work" />
     <MESSAGE value="migrate" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrate" />
+    <MESSAGE value="heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
