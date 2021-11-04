@@ -1,2 +1,2 @@
-release: python coolpress/manage.py migrate
-web: cd coolpress && gunicorn coolpress.wsgi
+release: python coolpress/coolpress/manage.py migrate
+web: cd coolpress/coolpress && gunicorn coolpress.wsgi
