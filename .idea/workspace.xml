@@ -2,9 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce25c56-5011-40e4-93c2-cd0b394a86d6" name="Changes" comment="heroku">
+      <change beforePath="$PROJECT_DIR$/.idea/coolpress.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coolpress.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcFile" beforeDir="false" afterPath="$PROJECT_DIR$/ProcFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coolpress/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/coolpress/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/coolpress/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/coolpress/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coolpress/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/coolpress/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/__tests_data__/news_sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/__tests_data__/news_sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/__tests_data__/sample_github_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/__tests_data__/sample_github_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/gravatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/gravatar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/mediastack_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/mediastack_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/migrations/0002_alter_post_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/migrations/0002_alter_post_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/migrations/0003_auto_20211020_1515.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/migrations/0003_auto_20211020_1515.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/migrations/0004_alter_category_slug.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/migrations/0004_alter_category_slug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/single_post.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/single_post.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/static/press/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/static/press/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/stats_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/stats_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/category_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/category_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/post_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/post_card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/posts_author.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/posts_author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/posts_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/posts_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/posts_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/posts_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/posts_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/posts_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/press/category_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/press/category_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/press/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/press/category_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/press/category_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/press/category_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/press/cooluser_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/press/cooluser_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/press/cooluser_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/press/cooluser_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/templates/stats_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/templates/stats_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/user_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/user_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/coolpress/press/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +99,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coolpress" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/coolpress/press/templates" />
       <recent name="$PROJECT_DIR$/coolpress/press" />
@@ -105,6 +151,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for coolpress.press.tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="coolpress" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coolpress/press" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;coolpress.press.tests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for press.tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="coolpress" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/karim/press" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;press.tests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.CategoryListCount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="coolpress" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,31 +196,15 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.CategoryListCount.test_assert_404" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="coolpress" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coolpress/press" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.CategoryListCount.test_assert_404&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Django Server" />
       <item itemvalue="Python.Test" />
-      <item itemvalue="Python tests.Python tests for tests.CategoryListCount" />
-      <item itemvalue="Python tests.Python tests for tests.CategoryListCount.test_assert_404" />
+      <item itemvalue="Python tests.Python tests for coolpress.press.tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.CategoryListCount.test_assert_404" />
-        <item itemvalue="Python tests.Python tests for tests.CategoryListCount" />
+        <item itemvalue="Python tests.Python tests for coolpress.press.tests" />
+        <item itemvalue="Python tests.Python tests for press.tests" />
         <item itemvalue="Python tests.Python tests for tests.CategoryListCount.test_assert_404" />
         <item itemvalue="Python tests.Python tests for tests.CategoryListCount" />
         <item itemvalue="Python tests.Python tests for tests.CategoryListCount.test_assert_404" />
@@ -159,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634575652040</updated>
-      <workItem from="1634575658687" duration="42759000" />
+      <workItem from="1634575658687" duration="44863000" />
     </task>
     <task id="LOCAL-00001" summary="big changes from many days of work">
       <created>1635965052157</created>
@@ -217,7 +277,49 @@
       <option name="project" value="LOCAL" />
       <updated>1636054059896</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="heroku">
+      <created>1636054322387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636054322387</updated>
+    </task>
+    <task id="LOCAL-00010" summary="heroku">
+      <created>1636054632398</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636054632398</updated>
+    </task>
+    <task id="LOCAL-00011" summary="heroku">
+      <created>1636054746088</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636054746088</updated>
+    </task>
+    <task id="LOCAL-00012" summary="heroku">
+      <created>1636055040542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636055040542</updated>
+    </task>
+    <task id="LOCAL-00013" summary="heroku">
+      <created>1636055199811</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636055199811</updated>
+    </task>
+    <task id="LOCAL-00014" summary="heroku">
+      <created>1636055366439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1636055366439</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +355,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/coolpress$.coverage" NAME=" Coverage Results" MODIFIED="1635437417143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coolpress/press" />
-    <SUITE FILE_PATH="coverage/coolpress$Django_Server.coverage" NAME="Django Server Coverage Results" MODIFIED="1636050833906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coolpress/" />
+    <SUITE FILE_PATH="coverage/coolpress$Django_Server.coverage" NAME="Django Server Coverage Results" MODIFIED="1636135154908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coolpress/" />
     <SUITE FILE_PATH="coverage/coolpress$Test.coverage" NAME="Test Coverage Results" MODIFIED="1635966551069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coolpress" />
   </component>
 </project>
