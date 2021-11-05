@@ -20,9 +20,9 @@
         </tbody>
     </table>
 </div>
-
+{% if stats and stats.a %}
 <div class="text-center">
     {{stats.all.to_svg|safe}}
 </div>
-
+{% endif %}
 {% endif %}
