@@ -161,6 +161,7 @@ class CooluserDetail(DetailView):
     model = CoolUser
 
 
+
 class CooluserList(ListView):
     model = CoolUser
 

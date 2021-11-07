@@ -32,6 +32,17 @@
             <img src="https://img.shields.io/github/followers/{{object.github_profile}}.svg?style=social&label=Follow&maxAge=2592000"
                  alt="Github profile">
         </div>
+        {% if object.github_profile %}
+				<div class="d-flex flex-column col-4">
+					<h4 class="mt-4 text-center">Github Information:</h4>
+					<div class="d-flex flex-column align-items-center text-center my-4">
+						<span><b>Profile:</b> {{object.github_profile|default:'-'}}</span>
+						<span><b>Repositories:</b> {{object.gh_repositories|default:'-'}}</span>
+						<span><b>Followers:</b> {{object.gh_followers|default:'-'}}</span>
+						<span><b>Following:</b> {{object.gh_following|default:'-'}}</span>
+					</div>
+				</div>
+        {% endif %}
         <div class="pt-2">
             <a class="btn btn-info" target="_blank"
                href="https://github.com/{{object.github_profile}}/">Check

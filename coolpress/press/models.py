@@ -1,17 +1,21 @@
+from datetime import datetime, timedelta, timezone
 from enum import Enum
 
 from django.contrib.auth.models import User
 from django.db import models
 from django.urls import reverse
 
-from press.user_management import get_gravatar_link, get_github_repositories
-
+from .user_management import get_gravatar_link, get_github_repositories, get_github_followers, get_github_following
 
 class CoolUser(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     github_profile = models.CharField(max_length=150, null=True, blank=True)
     gh_repositories = models.IntegerField(null=True, blank=True)
     gravatar_link = models.CharField(max_length=400, null=True, blank=True)
+    gh_followers = models.IntegerField(null=True, blank=True)
+    gh_following = models.IntegerField(null=True, blank=True)
+    last_followers_check = models.DateTimeField(null=True, blank=True)
+
 
     def __str__(self):
         user = self.user
@@ -26,12 +30,29 @@ class CoolUser(models.Model):
             if gravatar_link != self.gravatar_link:
                 self.gravatar_link = gravatar_link
                 self.save()
-        gh_repositories = None
-        if self.github_profile:
-            gh_repositories = get_github_repositories(self.github_profile)
 
+        date_now = datetime.now()
+        date_now += timedelta(days=1)
+        date_diff = self.last_followers_check
+        date_diff += timedelta(days=1)
+
+        gh_following = None
+        gh_followers = None
+        gh_repositories = None
+        if self.github_profile and (not self.last_followers_check or date_now > date_diff):
+            gh_repositories = get_github_repositories(self.github_profile)
+            gh_following = get_github_following(self.github_profile)
+            gh_followers = get_github_followers(self.github_profile)
+            self.last_followers_check = timezone.now()
+            self.save()
         if gh_repositories != self.gh_repositories:
             self.gh_repositories = gh_repositories
+            self.save()
+        if gh_followers != self.gh_followers:
+            self.gh_followers = gh_followers
+            self.save()
+        if gh_following != self.gh_following:
+            self.gh_following = gh_following
             self.save()
 
 class Category(models.Model):
